@@ -17,7 +17,7 @@ Chess is one of the most beautiful and complex board games conceived by humans. 
 
 Let’s look at the initial configuration
 
-{% include image.html url="../res/initial_state.png" description="" scale="100%" %}
+<img src="../res/initial_state.png" description="" scale="100%" />
 
 ### Notations
 
@@ -30,17 +30,17 @@ All standard notations will hold, except for the fact that there will be 2 extra
 
 All the pieces move in the same way as in the original game with an added option of jumping layers. That is an `e` pawn move to start off the game can now happen in 4 different ways rather than 2. That is, it can go to `BBe3`, `BBe4`, `TBe3` and `TBe4`. Note that all the pawns initially start out from the Bottom Board.
 
-{% include image.html url="../res/red_dots.png" description="" scale="100%" %}
+<img src="../res/red_dots.png" description="" scale="100%" />
 
 Also, any piece is free to make **one** jump per move. That is, a piece can either go from **TB** to **BB** or **BB** to **TB** in a move, but cannot jump over any blocking piece by jumping twice. For example,
 
-{% include image.html url="../res/move_rules.png" description="" scale="100%" %}
+<img src="../res/move_rules.png" description="" scale="100%" />
 
 Here, the Bishop on `BBc1` can move along the diagonal and make a jump to say `TBg5`. But it cannot be moved to `BBg5` as the pawn on `BBd2` is blocking it and no piece can make 2 jumps in the same move.
 
 Also, the Bishop on `TBb5` can attack the Knight on `BBc6` as well as the pawn on `BBd7` as it does not violate the *single jump rule*. This means that the no piece is safe anymore and the players need to put in extra effort to safeguard their pieces. Also, they need to come up with more sophisticated mating maneuvers as simple mating tricks like the *Fool's Mate* will not work anymore as the next figure shows.
 
-{% include image.html url="../res/fools_mate.png" description="" scale="100%" %}
+<img src="../res/fools_mate.png" description="" scale="100%" />
 
 We can see how easy it is for the King to move away from a certain checkmate because of the additional space provided. We have just scratched the surface of what can be done using this sort of a setup.
 

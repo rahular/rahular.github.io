@@ -18,7 +18,7 @@ In this post I will be showing you how to create a sliding window for your Andro
 * Create a new Android Project in the regular way
 
 
-    {% include image.html url="../res/framed_Screenshot_2013-06-17-23-17-48.png" description="" scale="50%" %}
+    <img src="../res/framed_Screenshot_2013-06-17-23-17-48.png" description="" scale="50%" />
 
 When you run the project without changing anything, the app should look something like what is shown above. (In case there are is any dependency error, it is likely to be caused by the &#8216;android-support-v4.jar&#8217; which is automatically referenced in the project. If this error occurs, just delete this file from the &#8216;libs&#8217; directory of your project.)Next you will have to link the library to your project so as to reuse the existing code. To do this, right clock on your project, go to &#8216;Properties&#8217; and select &#8216;Android&#8217; on the left pane. In the &#8216;library&#8217; section, click on &#8216;Add&#8217; and add the library imported previously.Now comes a little bit of coding.
 
@@ -58,8 +58,8 @@ menu.setSecondaryMenu(R.layout.slide_view);
 
 Now when you run the app, it must look something like this
 
-{% include image.html url="../res/framed_Screenshot_2013-06-17-23-18-13.png" description="" scale="50%" %}
+<img src="../res/framed_Screenshot_2013-06-17-23-18-13.png" description="" scale="50%" />
 
-{% include image.html url="../res/framed_Screenshot_2013-06-17-23-18-18.png" description="" scale="50%" %}
+<img src="../res/framed_Screenshot_2013-06-17-23-18-18.png" description="" scale="50%" />
     
 That should do it. All the code is self-explanatory. If you guys have any questions, feel free to comment below and I&#8217;ll try to answer them.

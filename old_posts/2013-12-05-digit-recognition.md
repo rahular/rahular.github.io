@@ -71,7 +71,7 @@ plot_gallery(images, labels, shape=(8, 8))
 
 The images should look something like this:
 
-{% include image.html description="Input data with 64 features" url="../res/digits_64.png" scale="50%" %}
+<img description="Input data with 64 features" src="../res/digits_64.png" scale="50%" />
 
 Let&#8217;s visualize the dataset in 2D using Principal Component Analysis:
 
@@ -100,7 +100,7 @@ _ = pl.legend(loc='best')
 
 The scatterplot should look something like this:
 
-{% include image.html url="../res/scatterplot.png" description="2D Scatterplot" scale="75%" %}
+<img src="../res/scatterplot.png" description="2D Scatterplot" scale="75%" />
 
 We can observe that even in 2D, the groups of digits are quite well separated, especially the digit &#8220;0&#8243; that is very different from any other (the closest being &#8220;6&#8243; as it often share most the left hand side pixels). We can also observe that at least in 2D, there is quite a bit of overlap between the &#8220;1&#8243;, &#8220;2&#8243; and &#8220;7&#8243; digits.
 To better understand the meaning of the &#8220;x&#8221; and &#8220;y&#8221; axes of this plot let us also visualize the values of the first two principal components that are used to compute this projection:
@@ -112,7 +112,7 @@ plot_gallery(pca.components_, labels, shape=(8, 8))
 
 The components look something like this:
 
-{% include image.html description="PCA Components" url="../res/components.png" scale="40%" %}
+<img description="PCA Components" src="../res/components.png" scale="40%" />
 
 ## Overfitting
 

@@ -21,7 +21,7 @@ First of all, as usual, create a new Android project (I will be using Eclipse). 
 * In Eclipse, go to File &#8212; New &#8212; Android Application Project.
 * You should get a screen like this
 
-{% include image.html url="../res/new_project.png" description="" scale="75%" %}
+<img src="../res/new_project.png" description="" scale="75%" />
   
 * Fill in all the details and click &#8216;Next&#8217;. (For a full explanation click <a href="http://developer.android.com/training/basics/firstapp/creating-project.html" target="_blank">here</a>)
 * You can leave all the settings to default in the next screens and click &#8216;Finish&#8217;

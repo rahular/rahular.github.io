@@ -11,7 +11,7 @@ categories:
 ---
 In the last post we talked about **ListViews** and how to use them in our apps. Here I want to build a little on the same code base and show how to create **ViewPagers**. (Please keep in mind that we use the **ViewPager** class available in android-support-v4 so that it is compatible with older devices as well) **ViewPagers** are like tabs which you find in almost all web browsers today. They allow users to easily navigate within the apps and allows the developers to categorize their content. An example of an activity using **ViewPagers** is shown below.
 
-  {% include image.html url="../res/app_structure_default_tabs.png" description="" scale="40%" %}
+  <img src="../res/app_structure_default_tabs.png" description="" scale="40%" />
   
 The first thing that we need for creating tabs like these are **Fragments**. **Fragments** can be thought of as a piece of UI which can be placed into suitable container (mostly an **Activity**). Many Fragments can be combined to make an **Activity** or a **Fragment** can be reused in multiple activities.
 
@@ -233,8 +233,8 @@ ActionBar.TabListener {
 
 The result will look something like this :
 
-{% include image.html url="../res/framed_dynamic_list.png" description="Dynamic List" scale="50%" %}
+<img src="../res/framed_dynamic_list.png" description="Dynamic List" scale="50%" />
 
-{% include image.html url="../res/framed_static_list.png" description="Static List" scale="50%" %}
+<img src="../res/framed_static_list.png" description="Static List" scale="50%" />
 
 That&#8217;s it guys! Have fun :)

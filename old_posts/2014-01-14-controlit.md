@@ -21,7 +21,7 @@ categories:
 	```
   * Go to the Settings panel which will look something like this
 
-{% include image.html url="../res/settingsPanel.png" description="" scale="50%" %}
+<img src="../res/settingsPanel.png" description="" scale="50%" />
 
   *  Here you can find your computer&#8217;s IP address and Bluetooth MAC address
   * Go to **Settings** in the *Android app* and type the 2 addresses in
@@ -32,7 +32,7 @@ categories:
   * On the computer, click on the **Commands** panel
   * You should get a screen which looks like this
 
-{% include image.html url="../res/commandsPanel.png" description="" scale="50%" %}
+<img src="../res/commandsPanel.png" description="" scale="50%" />
 
   * Add any commands you wish to execute automatically and give it a &#8216;key phrase&#8217;
   * A &#8216;key phrase&#8217; can be a single or a group of words which will trigger the corresponding commands to be executed
