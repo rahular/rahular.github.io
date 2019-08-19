@@ -1,18 +1,71 @@
----
-layout: default
----
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.55.2" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rahul's webpage</title>
+    <link rel='stylesheet' href='css/style.css'/>
+    <link rel='stylesheet' href='css/fonts.css'/>
+  </head>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<body>
+<nav>
+<ul class="menu">
+    <li><a target="_blank" href="https://github.com/rahular">GitHub</a></li>
+    <li><a target="_blank" href="https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en">Google Scholar</a></li>
+    <li><a target="_blank" href="https://supernlp.github.io/">Blog</a></li>
+    <li><a target="_blank" href="https://twitter.com/rahul_a_r">Twitter</a></li>
+</ul>
+<hr/>
+</nav>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<h1 id="main">Rahul Aralikatte</h1>
+I am a Ph.D student in the <a target="_blank" href="http://coastalcph.github.io/">CoAStaL</a> NLP Group working with <a target="_blank" href="https://anderssoegaard.github.io/">Prof. Anders Søgaard</a>. My area of research is Natural Language Understanding. I work on improving coreference resolution and semantic parsing systems using external knowledge and downstream rewards.
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<h2>News</h2>
+<ul>
+    <li>August 2019: "<i>Rewarding Coreference Resolvers for Being Consistent with World Knowledge</i>" accepted in EMNLP 2019. (Pre-print coming soon)</li>
+    <li>July 2019: Participated in the <a target="_blank" href="https://dlrlsummerschool.ca/">DLRL summer school</a> in Edmonton, Canada</li>
+</ul>
+
+<h2>Selected Publications</h2>
+<i>Rewarding Coreference Resolvers for Being Consistent with World Knowledge.</i>
+<b>Rahul Aralikatte</b>, Heather Lent, Ana Valeria Gonzalez, Daniel Herschcovich, Chen Qiu, Anders Sandholm, Michael Ringgaard, Anders Søgaard.
+Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP). Hong Kong, China.
+[<a target="_blank" href="#">Link coming soon</a>]
+<br /><br />
+
+<i>Adversarial Black-Box Attacks for Automatic Speech Recognition Systems Using Multi-Objective Evolutionary Optimization.</i>
+Shreya Khare, <b>Rahul Aralikatte</b>, Senthil Mani
+To appear in the 20th Annual Conference of the International Speech Communication Association (Interspeech). Graz, Austria.
+[<a target="_blank" href="https://arxiv.org/abs/1811.01312">pdf</a>]
+<br /><br />
+
+<i>Sanskrit Sandhi Splitting using seq2(seq)<sup>2</sup>.</i>
+<b>Rahul Aralikatte</b>, Neelamadhav Gantayat, Naveen Panwar, Anush Sankaran, Senthil Mani.
+Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP). Brussels, Belgium.
+[<a target="_blank" href="https://www.aclweb.org/anthology/D18-1530">pdf</a>]
+<br /><br />
+
+<i>DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension.</i>
+Amrita Saha, <b>Rahul Aralikatte</b>, Mitesh M. Khapra, Karthik Sankaranarayanan
+Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL). Melbourne, Australia.
+[<a target="_blank" href="https://www.aclweb.org/anthology/P18-1156">pdf</a>][<a target="_blank" href="https://duorc.github.io/">data</a>]
+<br /><br />
+
+<i>Hi, How Can I Help You?: Automating Enterprise IT Support Help Desks.</i>
+Senthil Mani, Neelamadhav Gantayat, <b>Rahul Aralikatte</b>, Monika Gupta, Sampath Dechu, Anush Sankaran, Shreya Khare,Barry Mitchell, Hemamalini Subramanian, Hema Venkatarangan. 
+The 33rd AAAI Conference on Artificial Intelligence (AAAI). New Orleans, USA. [<a target="_blank" href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17202/16373">pdf</a>]
+
+<h2>Misc.</h2>
+Previous employer: IBM Research <br />
+Reviewer: ACL, EMNLP
+</body>
+
+<footer>
+    <hr />
+    Theme by <a target="_blank" href="https://xmin.yihui.name/">Yihui Xie</a>
+</footer>
+</html>
