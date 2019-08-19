@@ -92,7 +92,7 @@ For this app, a very simple layout is sufficient as shown below.</p>
 
 When the layout is ready, it should look something like this.
     
-{% include image.html url="../res/framed_main_screen.png" description="" scale="50%" %}
+<img src="../res/framed_main_screen.png" description="" scale="50%" />
     
 In this layout, there are 2 <b><i>buttons</i></b> and 2 <b><i>edit texts</i></b>.</p> 
       
