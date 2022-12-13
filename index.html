@@ -17,21 +17,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rahul's webpage</title>
   <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel='stylesheet' href='css/style.css' />
   <link rel='stylesheet' href='css/fonts.css' />
 </head>
 
 <body class="">
   <div>
-    <ul class="menu">
+    <ul class="mymenu">
       <li><a target="_blank" title="GitHub" href="https://github.com/rahular"><i class="fab fa-github"></i></a></li>
       <li><a target="_blank" title="Google Scholar"
           href="https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en"><i
             class="fas fa-graduation-cap"></i></i></a></li>
       <li><a target="_blank" title="LinkedIn" href="https://linkedin.com/in/rahular"><i
             class="fab fa-linkedin-in"></i></a></li>
-      <!-- <li><a target="_blank" title="Twitter" href="https://twitter.com/rahul_a_r"><i class="fab fa-twitter"></i></a> -->
+      <button type="button" class="btn btn-info dropdown-toggle float-right" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Quick Links
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" target="_blank" href="http://www.rahular.com/itihasa/">Itihasa Corpus</a>
+        <!-- <div class="dropdown-divider"></div> -->
+        <a class="dropdown-item" target="_blank" href="http://www.rahular.com/ramayana/">Ramayana (ongoing)</a>
+      </div>
       </li>
     </ul>
     <hr />
@@ -43,7 +51,7 @@
       <p class="">I am a Postdoctoral Researcher at <a target="_blank" href="https://mila.quebec/en/">Mila - Quebec AI
           Institute</a> working with <a target="_blank" href="https://www.cs.mcgill.ca/~jcheung/">Prof. Jackie
           Cheung</a>
-        and a visiting researcher at Google. I finished my Ph.D. at the <a href="http://coastalcph.github.io/">CoAStaL
+        and a Visiting Researcher at Google. I finished my Ph.D. at the <a href="http://coastalcph.github.io/">CoAStaL
           NLP lab</a>
         at the University of Copenhagen under the supervision of <a target="_blank"
           href="https://anderssoegaard.github.io/">Prof. Anders Søgaard</a>. I do a bit of everything NLP, but currently
@@ -55,24 +63,58 @@
   <hr />
 
   <h4>Recent News</h4>
-  <ul class="pl-5">
-    <li><b>Nov 2022</b>: Started as a visiting researcher at Google.</li>
-    <li><b>Aug 2022</b>: Joined MILA as a postdoctoral researcher.</li>
-    <li><b>Jun 2022</b>: "<i>Compositional Generalization in Multilingual Semantic Parsing over Wikidata</i>" accepted
-      in <a target="_blank" href="https://transacl.org/index.php/tacl">TACL</a>.</li>
-    <li><b>Oct 2021</b>: My Ph.D thesis titled "<i>Towards Better Neural Coreference Resolution</i>" is now available <a
-        href="http://www.rahular.com/phd-thesis.pdf" target="_blank">here</a>.</li>
-    <li><b>Jun 2021</b>: "<i>Itihasa: A large-scale corpus for Sanskrit to English translation</i>" accepted in <a
-        target="_blank" href="http://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2021/index.html">WAT</a>, at ACL 2021.</li>
-    <li><b>Jun 2021</b>: "<i>Minimax and Neyman-Pearson Meta-Learning for Outlier Languages</i>" accepted in Findings of
-      <a target="_blank" href="https://2021.aclweb.org/">ACL</a> 2021.
-    </li>
-  </ul>
+  <table class="table-borderless">
+    <tbody>
+      <tr>
+        <td style="width: 13%">Dec 2022</td>
+        <td style="width: 87%"><a href="#">IndicXTREME</a>, <a href="#">IndicCorp v2</a>, and <a href="#">IndicBERT
+            v2</a>
+          released (links coming soon!). Meanwhile, the you are read the paper <a
+            href="https://arxiv.org/abs/2212.05409">here</a>.</td>
+      </tr>
+      <tr>
+        <td>Nov 2022</td>
+        <td>Started as a visiting researcher at Google.</td>
+      </tr>
+      <tr>
+        <td>Aug 2022</td>
+        <td>Joined MILA as a postdoctoral researcher.</td>
+      </tr>
+      <tr>
+        <td>Jun 2022</td>
+        <td>"<i>Compositional Generalization in Multilingual Semantic Parsing over Wikidata</i>" accepted
+          in <a target="_blank" href="https://transacl.org/index.php/tacl">TACL</a>.</td>
+      </tr>
+      <tr>
+        <td>Oct 2021</td>
+        <td>My Ph.D thesis titled "<i>Towards Better Neural Coreference Resolution</i>" is now available <a
+            href="http://www.rahular.com/phd-thesis.pdf" target="_blank">here</a>.</td>
+      </tr>
+      <tr>
+        <td>Jun 2021</td>
+        <td>"<i>Itihasa: A large-scale corpus for Sanskrit to English translation</i>" accepted in <a target="_blank"
+            href="http://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2021/index.html">WAT</a>, at ACL 2021.</td>
+      </tr>
+      <tr>
+        <td>Jun 2021</td>
+        <td>"<i>Minimax and Neyman-Pearson Meta-Learning for Outlier Languages</i>" accepted in Findings of
+          <a target="_blank" href="https://2021.aclweb.org/">ACL</a> 2021.
+        </td>
+      </tr>
+    </tbody>
+  </table>
   <hr />
 
   <h4>Publications</h4>
   <h6>2022</h6>
   <ul>
+    <li>IndicXTREME: A Multi-Task Benchmark For Evaluating Indic Languages <a href="https://arxiv.org/abs/2212.05409">
+        <i class="fas fa-file"></i></a> <a href="https://github.com/AI4Bharat/IndicBERT"><i
+          class="fab fa-github"></i></a>
+      <p class="text-muted">Sumanth Doddapaneni, <b>Rahul Aralikatte</b>, Gowtham Ramesh, Shreya Goyal, Mitesh M.
+        Khapra, Anoop Kunchukuttan, Pratyush Kumar</p>
+    </li>
+
     <li>Compositional Generalization in Multilingual Semantic Parsing over Wikidata. Transactions of ACL <a
         href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00499/112914/Compositional-Generalization-in-Multilingual">
         <i class="fas fa-file"></i></a> <a href="https://github.com/coastalcph/seq2sparql"><i
@@ -299,16 +341,15 @@
     <div class="row">
       <h6 class="col-sm-2">Reviewer</h6>
       <ul class="col-sm-10 list-unstyled">
-        <li><b>AAAI</b> (2020, 2021)</li>
-        <li><b>AACL</b> (2020)</li>
-        <li><b>ACL</b> (2019, 2020, 2021)</li>
-        <li><b>ACL Rolling Review</b> (2021-Present)</li>
-        <li><b>COLING</b> (2020)</li>
-        <li><b>EACL</b> (2021)</li>
-        <li><b>EMNLP</b> (2019, 2020, 2021, 2022)</li>
-        <li><b>ICLR</b> (2020, 2021)</li>
-        <li><b>NAACL</b> (2021)</li>
-        <li><b>NeurIPS</b> (2021, 2022)</li>
+        <li><b>AAAI</b> (2020-2022)</li>
+        <li><b>AACL</b> (2020-2022)</li>
+        <li><b>ACL</b> (2019-2022)</li>
+        <li><b>COLING</b> (2020-2022)</li>
+        <li><b>EACL</b> (2021-2022)</li>
+        <li><b>EMNLP</b> (2019-2022)</li>
+        <li><b>ICLR</b> (2020-2022)</li>
+        <li><b>NAACL</b> (2021-2022)</li>
+        <li><b>NeurIPS</b> (2021-2022)</li>
       </ul>
     </div>
   </div>
@@ -319,5 +360,9 @@
   Built with <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> and <a target="_blank"
     href="https://xmin.yihui.name/">this theme</a>.
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.2.slim.min.js"
+  integrity="sha256-E3P3OaTZH+HlEM7f1gdAT3lHAn4nWBZXuYe89DFg2d0=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
 </html>
